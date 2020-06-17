@@ -51,8 +51,10 @@
   outline: none;
 }
 
-.form-field:nth-child(5) {
-  margin-bottom: 20px;
+.form-field {
+  &:nth-child(5) {
+    margin-bottom: 20px;
+  }
 }
 
 .form-label {
@@ -76,8 +78,10 @@
   }
 }
 
-.form-input:focus {
-  border-color: $accent-color;
+.form-input {
+  &:focus {
+    border-color: $accent-color;
+  }
 }
 
 .textarea-label {
@@ -102,8 +106,10 @@
   }
 }
 
-.form-textarea:focus {
-  border-color: var(--accent-bg-color);
+.form-textarea {
+  &:focus {
+    border-color: var(--accent-bg-color);
+  }
 }
 
 .form-input {

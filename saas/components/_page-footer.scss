@@ -101,10 +101,12 @@
   }
 }
 
-.icon-detail:hover,
-.icon-detail:focus {
-  color: $white-color;
-  background-color: $accent-color;
+.icon-detail {
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $accent-color;
+  }
 }
 
 .detail-social {
@@ -130,16 +132,18 @@
   background-color: $footer-bg-color;
 }
 
-.subscribtion input::placeholder {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
+.subscribtion {
+  input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
 
-  align-items: center;
-  letter-spacing: 0.03em;
-  padding: 18px 12px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    padding: 18px 12px;
 
-  color: $footer-main-color;
+    color: $footer-main-color;
+  }
 }
 
 .subscribe-title {

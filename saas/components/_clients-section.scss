@@ -26,11 +26,11 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-image:hover,
-.client-image:focus {
+.client-image {
+&:hover, &:focus {
   color: $accent-color;
   border-color: $accent-color;
-}
+}}
 
 .client-icon {
   fill: currentColor;
