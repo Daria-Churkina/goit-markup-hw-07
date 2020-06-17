@@ -329,19 +329,6 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.bottom-text {
-  display: block;
-  margin: 0px;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  color: rgba(255, 255, 255, 0.4);
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .container.navigation {
   display: -webkit-box;
   display: -ms-flexbox;

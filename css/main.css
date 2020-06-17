@@ -485,19 +485,6 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.bottom-text {
-  display: block;
-  margin: 0px;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  color: rgba(255, 255, 255, 0.4);
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .hero {
   margin-left: auto;
   margin-right: auto;
@@ -995,15 +982,18 @@ footer {
 
 .close-button {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   border: none;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+}
+
+.close-button:hover {
+  fill: #2196f3;
 }
 
 .service-button {
